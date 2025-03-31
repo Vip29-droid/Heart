@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Monthsarry!</title>
+    <style>
+        body {
+            background-color: #ffd6e7;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .side-image {
+            width: 250px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .center-content {
+            text-align: center;
+            max-width: 500px;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            color: #ff1493;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-container {
+            margin: 30px 0;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .center-image {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .message {
+            font-size: 1.5em;
+            color: #c71585;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        
+        .hearts {
+            font-size: 2em;
+            color: #ff69b4;
+            margin: 20px 0;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Left Image -->
+        <img src="hehe.jpg" alt="Left Photo" class="side-image">
+        
+        <!-- Center Content -->
+        <div class="center-content">
+            <h1>Happy Monthsary!</h1>
+            
+            <div class="image-container">
+                <img src="cute.jpg" alt="Our Photo" class="center-image">
+            </div>
+            
+            <div class="hearts">❤️ ❤️ ❤️</div>
+            
+            <div class="message">
+                To my lalove,<br>
+                I love youuuu so much!<br>
+                Thank you for everything.<br>
+            </div>
+            
+            <div class="hearts">❤️ ❤️ ❤️</div>
+        </div>
+        
+        <!-- Right Image -->
+        <img src="love.jpg" alt="Right Photo" class="side-image">
+    </div>
+</body>
+</html>
